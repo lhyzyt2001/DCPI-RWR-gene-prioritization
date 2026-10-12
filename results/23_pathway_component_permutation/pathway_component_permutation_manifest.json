@@ -1,0 +1,7 @@
+{
+  "hypothesis": "The pathway component improves fixed-budget recovery beyond pathway values exchangeable among genes of comparable STRING degree.",
+  "selection": "Cancer-specific performance configurations were selected using 26.03 historical cross-validation only.",
+  "future_labels_used_for_configuration_selection": false,
+  "multiplicity": "Holm correction across six cancer-specific pathway tests.",
+  "permutations": 2000
+}

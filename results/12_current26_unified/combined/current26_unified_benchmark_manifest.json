@@ -1,0 +1,10 @@
+{
+  "primary_endpoint": "Open Targets 26.06 disease-specific LUAD clinical-precedence evidence",
+  "positive_count": 197,
+  "gene_count": 25242,
+  "prevalence": 0.007804452895967039,
+  "outer_design": "three-repeat five-fold shared transductive split",
+  "deep_seed_policy": "three prespecified optimization seeds per model and outer fold; predictions averaged before model comparison",
+  "inference": "label-stratified gene-cluster bootstrap retaining the gene across all repeats; Holm correction across comparisons versus RWR",
+  "important_boundary": "Methods are compared only within this endpoint; AUPRC is not compared numerically with historical, matched or temporal endpoints."
+}

@@ -1,0 +1,11 @@
+{
+  "pairs": 1184,
+  "positive_mean_log_degree": 3.735537293483835,
+  "negative_mean_log_degree": 3.731797497488682,
+  "standardized_mean_difference_log_degree": 0.0035520126191244923,
+  "ks_statistic": 0.011824324324324325,
+  "ks_p_value": 0.9999971597197651,
+  "exact_degree_pairs": 1127,
+  "nearest_degree_pairs": 57,
+  "maximum_absolute_degree_difference": 279
+}

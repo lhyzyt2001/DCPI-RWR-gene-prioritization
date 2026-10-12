@@ -1,0 +1,7 @@
+cancer,disease_name,historical_targets,future_targets,incident_targets,retired_targets
+LUAD,lung adenocarcinoma,77,197,120,0
+BRCA,breast cancer,471,588,134,17
+CRC,colorectal cancer,352,585,243,10
+PRAD,prostate cancer,442,504,78,16
+MEL,melanoma,342,421,106,27
+OV,ovarian cancer,282,436,156,2

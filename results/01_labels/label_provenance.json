@@ -1,0 +1,92 @@
+{
+  "positive_stages": [
+    "APPROVAL",
+    "EARLY_PHASE_1",
+    "PHASE_1",
+    "PHASE_1_2",
+    "PHASE_2",
+    "PHASE_2_3",
+    "PHASE_3",
+    "PHASE_4"
+  ],
+  "cancers": {
+    "LUAD": "lung adenocarcinoma",
+    "BRCA": "breast cancer",
+    "CRC": "colorectal cancer",
+    "PRAD": "prostate cancer",
+    "MEL": "melanoma",
+    "OV": "ovarian cancer"
+  },
+  "input_files": [
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00000-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4724023,
+      "sha256": "2b7d968c1c7f30711f3e24359660072f0ba14c78090db2a0ea1218b373cf59c9"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00001-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4731224,
+      "sha256": "e221a55fb2b5213e7d8662216a28cad63c69f176168a8d649d45fbf8023c3586"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00002-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4671042,
+      "sha256": "b2ec344625e724a6d79bff858448579e47d26f276bf1bbfd99e5c8bcc85f0edd"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00003-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4705592,
+      "sha256": "c3b7dc4bcdb0e76628f5c13ea57772a52e6b4358beedeee462746d1551f6f770"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00004-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4717722,
+      "sha256": "2d3c26108263b90ec3dfd8dfe3c67bc4b97326289b3ea99599d9237c5e283e7a"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00005-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4692197,
+      "sha256": "51160aff34380440d063b0ee4faef23f1ed1465cefe0b5f402d66c8ca001857a"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00006-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4726975,
+      "sha256": "0492cc2d060c38a6532f0978c637eea4f57efca7bbaf324f41aea022abd8e2ab"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00007-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4697130,
+      "sha256": "9069100bb5ddc080ea7ab40b187344214256a2a30f5c5b0302bbb744e610d056"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00008-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4719590,
+      "sha256": "c70d5303256dd749a81a3dc17135cd9a3208d8808218f327dba8ae9eaf5ba91a"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00009-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 4680897,
+      "sha256": "77b1c3bbba651c6e7ab3e7458839d0cadfa42d18647a02e30715a5a4ab6dfaf3"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.03\\part-00010-2e162328-c6b8-4da8-bca8-b02135af7aab-c000.snappy.parquet",
+      "bytes": 392139,
+      "sha256": "50855a3b8edf6b00b107392d83f4adb2438d064f4a707687dc079f171525b0e4"
+    },
+    {
+      "path": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_priority_validation\\raw_open_targets\\26.06\\part-00000-0df68723-5a30-40a5-b899-ecac4d382ea0-c000.snappy.parquet",
+      "bytes": 65766146,
+      "sha256": "b3a66214b4941a5ec9c22bb43fb188f91c90d5a39e5d71d1e5e028b300202ad9"
+    }
+  ],
+  "fixed_schema": {
+    "release": "26.06",
+    "dataset": "evidence_clinical_precedence",
+    "disease": "lung adenocarcinoma",
+    "cutoff": "2016-12-31",
+    "historical_targets": 182,
+    "future_dated_targets": 196,
+    "incident_targets": 14,
+    "interpretation": "Fixed-release evidence-date split; not called prospective because graph features were not independently version-frozen before the cutoff."
+  }
+}

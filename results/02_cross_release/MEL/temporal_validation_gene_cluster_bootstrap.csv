@@ -1,0 +1,4 @@
+method,reference,median_delta_incident_AUPRC,ci_lower,ci_upper,p_two_sided,bootstrap_replicates,bootstrap_unit
+XGBoost historical stack,RWR (historical seeds),-0.006673996397946344,-0.03265927471426147,0.00970747086881114,0.46476761619190404,2000,gene retained across three historical OOF repeats
+LightGBM historical stack,RWR (historical seeds),-0.009445380747737974,-0.034018119003374286,0.0022727908383201613,0.1629185407296352,2000,gene retained across three historical OOF repeats
+LightGBM historical stack,XGBoost historical stack,-0.0028155385116677804,-0.013422484924768382,0.005037726768659646,0.512743628185907,2000,gene retained across three historical OOF repeats

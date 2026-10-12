@@ -1,0 +1,14 @@
+{
+  "models": [
+    "RWR-feature APPNP",
+    "RWR-feature GCNII",
+    "RWR-feature GATv2"
+  ],
+  "training_protocol": "Three optimization seeds for every one of 15 fixed outer folds; identical maximum/minimum epochs and patience for every model and seed.",
+  "fits": 135,
+  "outer_test_labels_used_for_training": false,
+  "comparison": "Mean prediction across three uniformly trained optimization seeds compared with leakage-controlled RWR on the same splits.",
+  "bootstrap_unit": "gene cluster, retaining all available repeat-level predictions",
+  "bootstrap_replicates": 2000,
+  "seed": 20260812
+}

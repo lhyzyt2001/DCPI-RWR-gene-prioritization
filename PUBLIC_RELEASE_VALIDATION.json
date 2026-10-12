@@ -1,0 +1,17 @@
+{
+  "root": "C:\\Users\\21215\\Documents\\Codex\\2026-07-21\\word-word-bmc-genomics-2\\work_dcpi_public_release_20261010\\public_release_staging",
+  "file_count_excluding_manifest": 308,
+  "total_bytes_excluding_manifest": 73538232,
+  "python_file_count": 34,
+  "python_syntax_errors": [],
+  "oversized_files": [],
+  "zenodo_version": "1.0.0",
+  "renamed_legacy_scripts": [
+    "04_legacy_pu_sensitivity.py",
+    "07_legacy_candidate_ranking.py",
+    "08_legacy_cptac_candidates.py",
+    "10_legacy_functional_consensus.py"
+  ],
+  "forbidden_active_filenames": [],
+  "manifest_rows": 308
+}

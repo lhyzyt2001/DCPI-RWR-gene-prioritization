@@ -1,0 +1,17 @@
+﻿file,width,height,dpi_x,dpi_y
+results/02_cross_release/BRCA/temporal_validation.png,3742,1976,599.9988,599.9988
+results/02_cross_release/CRC/temporal_validation.png,3742,1976,599.9988,599.9988
+results/02_cross_release/LUAD/temporal_validation.png,3774,1976,599.9988,599.9988
+results/02_cross_release/MEL/temporal_validation.png,3742,1976,599.9988,599.9988
+results/02_cross_release/OV/temporal_validation.png,3742,1976,599.9988,599.9988
+results/02_cross_release/PRAD/temporal_validation.png,3742,1976,599.9988,599.9988
+results/04_multicancer_summary/multicancer_cross_release_forest.png,3706,2179,599.9988,599.9988
+results/05_exact_centrality_audit/network_centrality_audit.png,4069,3380,599.9988,599.9988
+results/07_uniform_multiseed/APPNP/deep_multiseed_sensitivity.png,4297,1834,599.9988,599.9988
+results/07_uniform_multiseed/combined/uniform_multiseed_deep_benchmark.png,4301,1843,599.9988,599.9988
+results/07_uniform_multiseed/GATv2/deep_multiseed_sensitivity.png,4297,1834,599.9988,599.9988
+results/07_uniform_multiseed/GCNII/deep_multiseed_sensitivity.png,4296,1834,599.9988,599.9988
+results/12_current26_unified/combined/current26_unified_benchmark.png,4313,1701,599.9988,599.9988
+results/21_constrained_dcpi_rwr/DCPI_RWR_LUAD_tuning_pareto.png,2607,2073,599.9988,599.9988
+results/21_constrained_dcpi_rwr/DCPI_RWR_multicancer_performance_and_bias.png,5252,2334,599.9988,599.9988
+results/22_final_innovation_summary/DCPI_RWR_bias_performance_biology_summary.png,5491,4060,599.9988,599.9988

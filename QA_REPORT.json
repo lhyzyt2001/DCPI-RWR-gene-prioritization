@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "six cancer endpoints",
+      "passed": true,
+      "detail": "cancers=['BRCA', 'CRC', 'LUAD', 'MEL', 'OV', 'PRAD']"
+    },
+    {
+      "check": "four locked alternatives",
+      "passed": true,
+      "detail": "methods=['DCPI-RWR bias-aware', 'DCPI-RWR constrained Top100', 'DCPI-RWR discovery', 'DCPI-RWR performance']"
+    },
+    {
+      "check": "2,000 bootstrap replicates",
+      "passed": true,
+      "detail": "{2000}"
+    },
+    {
+      "check": "historical-only configurations",
+      "passed": true,
+      "detail": "all six present"
+    },
+    {
+      "check": "Top100 descriptive recovery",
+      "passed": true,
+      "detail": "{\"hits\":{\"DCPI-RWR bias-aware\":36,\"DCPI-RWR performance\":44,\"RWR-STRING\":34},\"hubs\":{\"DCPI-RWR bias-aware\":0.38,\"DCPI-RWR performance\":0.485,\"RWR-STRING\":0.79}}"
+    },
+    {
+      "check": "hub reduction",
+      "passed": true,
+      "detail": "{\"hits\":{\"DCPI-RWR bias-aware\":36,\"DCPI-RWR performance\":44,\"RWR-STRING\":34},\"hubs\":{\"DCPI-RWR bias-aware\":0.38,\"DCPI-RWR performance\":0.485,\"RWR-STRING\":0.79}}"
+    },
+    {
+      "check": "paired test retained",
+      "passed": true,
+      "detail": "P=0.143306654295884"
+    },
+    {
+      "check": "locked LUAD Top20",
+      "passed": true,
+      "detail": "rows=20"
+    },
+    {
+      "check": "pathway permutation",
+      "passed": true,
+      "detail": "rows=6"
+    },
+    {
+      "check": "external characterization",
+      "passed": true,
+      "detail": "rows=20"
+    },
+    {
+      "check": "publication PNG resolution",
+      "passed": true,
+      "detail": "checked=3"
+    },
+    {
+      "check": "vector companion: DCPI_RWR_LUAD_tuning_pareto",
+      "passed": true,
+      "detail": "PDF present"
+    },
+    {
+      "check": "vector companion: DCPI_RWR_multicancer_performance_and_bias",
+      "passed": true,
+      "detail": "PDF present"
+    },
+    {
+      "check": "vector companion: DCPI_RWR_bias_performance_biology_summary",
+      "passed": true,
+      "detail": "PDF present"
+    },
+    {
+      "check": "method nomenclature",
+      "passed": true,
+      "detail": "DCPI-RWR = Degree-Conditioned Pathway-Integrated Random Walk with Restart"
+    },
+    {
+      "check": "tabular numerical identity after nomenclature update",
+      "passed": true,
+      "detail": "checked=181 CSV/CSV.GZ tables; exact values and row order retained"
+    },
+    {
+      "check": "active method identifiers updated",
+      "passed": true,
+      "detail": "active code, result paths, tables and figures use DCPI-RWR; the former name appears only in NAME_CHANGE.md as provenance"
+    }
+  ],
+  "claim_boundary": "The package supports a performance-centrality trade-off and fixed-budget enrichment, not universal superiority, causality or therapeutic validation.",
+  "generated_at_utc": "2026-10-04T01:28:52.338355+00:00"
+}

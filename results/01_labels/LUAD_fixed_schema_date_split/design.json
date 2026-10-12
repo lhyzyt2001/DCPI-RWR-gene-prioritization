@@ -1,0 +1,10 @@
+{
+  "release": "26.06",
+  "dataset": "evidence_clinical_precedence",
+  "disease": "lung adenocarcinoma",
+  "cutoff": "2016-12-31",
+  "historical_targets": 182,
+  "future_dated_targets": 196,
+  "incident_targets": 14,
+  "interpretation": "Fixed-release evidence-date split; not called prospective because graph features were not independently version-frozen before the cutoff."
+}

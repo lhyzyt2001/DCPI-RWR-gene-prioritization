@@ -1,0 +1,8 @@
+cancer,overlap_genes,method_only_incident_hits,reference_only_incident_hits,exact_p_two_sided
+LUAD,37.0,4,2,0.6875
+BRCA,37.0,3,3,1.0
+CRC,30.0,3,3,1.0
+PRAD,38.0,2,1,1.0
+MEL,29.0,4,2,0.6875
+OV,24.0,7,3,0.34375
+POOLED_DESCRIPTIVE,,23,14,0.18774155899882317

@@ -1,0 +1,11 @@
+{
+  "historical_release": "26.03",
+  "future_release": "26.06",
+  "historical_positive_count": 282,
+  "future_positive_count": 436,
+  "incident_positive_count": 156,
+  "evaluation_population": "all 26.03-unlabelled network genes",
+  "design": "three-repeat five-fold historical-label OOF prediction followed by incident-label evaluation",
+  "future_labels_used_for_fitting": false,
+  "important_endpoint_note": "Disease-specific clinical-precedence evidence; cross-release changes can include clinical-mining and ontology pipeline updates."
+}

@@ -1,0 +1,6 @@
+method,reference,median_delta_AUPRC,ci_lower,ci_upper,p_two_sided,bootstrap_replicates,bootstrap_unit,p_holm
+XGBoost direct stack,RWR (STRING graph),0.03316072511559631,0.01888562845505843,0.04787753460984777,0.0009995002498750624,2000,degree-matched positive-unlabelled pair retained across three repeats,0.004997501249375312
+LightGBM direct stack,RWR (STRING graph),0.042340897760997975,0.028386675885589432,0.056585932460883746,0.0009995002498750624,2000,degree-matched positive-unlabelled pair retained across three repeats,0.004997501249375312
+RWR-feature APPNP,RWR (STRING graph),-0.010764234492902036,-0.023373236110142963,0.0008536052273855365,0.07396301849075462,2000,degree-matched positive-unlabelled pair retained across three repeats,0.07396301849075462
+RWR-feature GCNII,RWR (STRING graph),-0.013610400113437338,-0.02437852489341483,-0.002537776819080924,0.014992503748125937,2000,degree-matched positive-unlabelled pair retained across three repeats,0.029985007496251874
+RWR-feature GATv2,RWR (STRING graph),-0.07299650790066092,-0.09358170307920595,-0.051816579859586064,0.0009995002498750624,2000,degree-matched positive-unlabelled pair retained across three repeats,0.004997501249375312

@@ -1,0 +1,14 @@
+{
+  "endpoint": "Open Targets 26.06 disease-specific LUAD clinical-precedence evidence",
+  "features": [
+    "STRING_log_degree",
+    "STRING_log_weighted_degree",
+    "CellType_log_degree",
+    "CellType_log_weighted_degree",
+    "Pathway_log_degree",
+    "Pathway_log_weighted_degree"
+  ],
+  "model": "class-weighted logistic regression with fold-local standardization",
+  "split_policy": "same outer folds and same core/inner partition as the current-endpoint stack and deep models",
+  "outer_test_labels_used_for_fitting": false
+}

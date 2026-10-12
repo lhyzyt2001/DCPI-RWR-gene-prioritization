@@ -1,0 +1,7 @@
+{
+  "design": "For each target cancer, the configuration maximizing mean within-cancer historical-CV AUPRC percentile across the other five cancers was locked and transferred to the target cancer.",
+  "future_label_use_in_selection": false,
+  "target_cancer_historical_label_use_in_selection": false,
+  "bootstrap_replicates": 2000,
+  "boundary": "Graph features were not release-frozen; this is cross-release label validation, not a fully prospective experiment."
+}

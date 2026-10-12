@@ -1,0 +1,31 @@
+{
+  "title": "DCPI-RWR: degree-conditioned pathway-integrated network diffusion for multicancer gene prioritization",
+  "upload_type": "software",
+  "description": "Reproducible source code and publication-level derived results for a degree-conditioned, pathway-integrated network-diffusion framework that evaluates predictive discrimination against network-centrality dependence in time-separated multicancer gene prioritization.",
+  "creators": [
+    {"name": "Zhang, Yuting"},
+    {"name": "Feng, Jihua"},
+    {"name": "Yang, Jiahui"},
+    {"name": "Chen, Zhongxing"},
+    {"name": "Li, Longfei"}
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "publication_date": "2026-10-10",
+  "keywords": [
+    "gene prioritization",
+    "random walk with restart",
+    "network diffusion",
+    "network centrality",
+    "multicancer",
+    "lung adenocarcinoma"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/lhyzyt2001/DCPI-RWR-gene-prioritization",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

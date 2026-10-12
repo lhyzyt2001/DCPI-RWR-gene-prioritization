@@ -1,0 +1,2 @@
+pooled_delta_AUPRC,ci_lower,ci_upper,tau_squared,I_squared_percent,method,reference,cancers
+-0.006307009061047309,-0.014574778089728152,0.0019607599676335326,6.065037479834469e-05,64.2627562578145,DCPI-RWR performance,RWR-STRING,6

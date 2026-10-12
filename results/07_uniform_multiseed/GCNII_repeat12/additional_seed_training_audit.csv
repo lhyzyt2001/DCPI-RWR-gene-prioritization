@@ -1,0 +1,3 @@
+repeat,fold,method,seed_label,seed,core_train_n,inner_val_n,outer_test_n,outer_test_labels_used_for_training,outer_test_nodes_used_as_rwr_seeds,best_epoch,epochs_run,best_inner_val_auprc,training_seconds,parameters,positive_class_weight
+1,0,RWR-feature GCNII,uniform_seed_1,2047,17164,3029,5049,False,False,145,180,0.4100139810524965,692.7323372364044,34946,10.660869598388672
+1,0,RWR-feature GCNII,uniform_seed_2,12047,17164,3029,5049,False,False,232,267,0.4222440054290528,519.1921870708466,34946,10.660869598388672

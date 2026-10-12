@@ -1,0 +1,15 @@
+{
+  "design": "Open Targets 26.03-to-26.06 disease-specific clinical-precedence cross-release replication",
+  "cancers": [
+    "LUAD",
+    "BRCA",
+    "CRC",
+    "PRAD",
+    "MEL",
+    "OV"
+  ],
+  "multiplicity": "Holm correction across cancers within each method-reference comparison",
+  "meta_analysis": "DerSimonian-Laird random effects using CI-derived standard errors",
+  "boundary": "Not a strict prospective validation because release 26.06 changed clinical-mining and disease-ontology pipelines.",
+  "fixed_schema_boundary": "The within-26.06 evidence-date split has few incident LUAD targets and is reported as low-powered sensitivity evidence."
+}

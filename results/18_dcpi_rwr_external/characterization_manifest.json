@@ -1,0 +1,15 @@
+{
+  "candidate_selection": "LUAD top 20 ranked by the historically locked DCPI-RWR bias-aware configuration among genes without 26.06 Open Targets clinical-stage evidence; post hoc external characterization only.",
+  "TCGA": "Paired Wilcoxon, stage Mann-Whitney, and age/sex/stage-adjusted continuous-expression Cox model.",
+  "GSE68465": "Maximum-IQR probe selected without outcome labels; tumor-normal Mann-Whitney and age/sex/nodal/pT-adjusted Cox model.",
+  "multiple_testing": "Benjamini-Hochberg within each endpoint across the fixed top 20.",
+  "ph_diagnostic": "Pearson correlation of Schoenfeld residuals with ranked event time; FDR by cohort/endpoint/covariate.",
+  "input_sha256": {
+    "DCPI_RWR_current26_locked_top20.csv": "661ca49f81656c794572e8177dd9b38797fae37aca3eb7d40570d2e495a9309d",
+    "TCGA.LUAD.sampleMap_HiSeqV2.gz": "5432e5a67fc4c4fd6ca22f76f18494756f0e8409a8969df3157935f39947aa00",
+    "TCGA.LUAD.sampleMap_LUAD_clinicalMatrix": "0e7a7fa7773a44326d2270160201b059c50c8a0c75359359a8639772497db59a",
+    "GSE68465_series_matrix.txt.gz": "f4a74ef436302e016029df8cea8e01a1a36c98d087501c78668e05727d38bdbf",
+    "GPL96.annot.gz": "88e0b22362bac779eb220b3b185c80faa6510a92b9358eaad159a561ab4351c4"
+  },
+  "interpretation": "Secondary molecular and clinical characterization, not experimental validation of causality or therapeutic efficacy."
+}

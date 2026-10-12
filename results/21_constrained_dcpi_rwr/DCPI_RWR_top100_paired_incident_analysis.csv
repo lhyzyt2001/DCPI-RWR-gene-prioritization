@@ -1,0 +1,15 @@
+cancer,comparison,overlap_genes,method_only_incident_hits,reference_only_incident_hits,exact_p_two_sided
+LUAD,DCPI-RWR performance vs RWR-STRING,37.0,5,2,0.453125
+BRCA,DCPI-RWR performance vs RWR-STRING,33.0,3,3,1.0
+CRC,DCPI-RWR performance vs RWR-STRING,44.0,3,3,1.0
+PRAD,DCPI-RWR performance vs RWR-STRING,38.0,2,1,1.0
+MEL,DCPI-RWR performance vs RWR-STRING,31.0,4,2,0.6875
+OV,DCPI-RWR performance vs RWR-STRING,24.0,7,3,0.34375
+POOLED_DESCRIPTIVE,DCPI-RWR performance vs RWR-STRING,,24,14,0.14330665429588407
+LUAD,DCPI-RWR constrained Top100 vs RWR-STRING,30.0,1,5,0.21875
+BRCA,DCPI-RWR constrained Top100 vs RWR-STRING,13.0,3,4,1.0
+CRC,DCPI-RWR constrained Top100 vs RWR-STRING,11.0,4,8,0.3876953125
+PRAD,DCPI-RWR constrained Top100 vs RWR-STRING,8.0,4,2,0.6875
+MEL,DCPI-RWR constrained Top100 vs RWR-STRING,13.0,4,4,1.0
+OV,DCPI-RWR constrained Top100 vs RWR-STRING,12.0,4,5,1.0
+POOLED_DESCRIPTIVE,DCPI-RWR constrained Top100 vs RWR-STRING,,20,28,0.31232680747326935

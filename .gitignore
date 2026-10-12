@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Local credentials, access tokens and machine-specific paths
+.env
+.env.*
+config.local.*
+secrets.*
+
+# Recomputed intermediate artifacts are not part of the frozen release
+checkpoints/
+cache/
+tmp/

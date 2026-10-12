@@ -1,0 +1,9 @@
+result,value,interpretation
+RWR total incident hits at Top100 across six cancers,34.0,reference
+performance DCPI-RWR total incident hits at Top100,44.0,descriptive increase; paired P=0.143
+RWR mean Top100 hub fraction,0.79,STRING top-5% hubs
+performance DCPI-RWR mean Top100 hub fraction,0.485,lower in all six cancers
+bias-aware DCPI-RWR mean Top100 hub fraction,0.38,larger de-biasing with performance cost
+global AUPRC random-effects delta,-0.006307,95% CI -0.014575 to 0.001961
+concordant FDR-significant RNA candidates,3.0,"VEGFB, PDGFD, EPHA4"
+adjusted survival associations,0.0,TCGA and GSE68465

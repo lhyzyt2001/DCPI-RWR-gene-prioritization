@@ -1,0 +1,16 @@
+{
+  "endpoint": "Open Targets 26.06 disease-specific LUAD clinical-precedence evidence",
+  "positive_count": 197,
+  "total_genes": 25242,
+  "outer_split_source": "results\\02b_disease_specific_current_cv\\disease_specific_oof_predictions.csv.gz",
+  "models": [
+    "APPNP"
+  ],
+  "optimization_seeds_per_outer_fold": 3,
+  "max_epochs": 300,
+  "min_epochs": 30,
+  "patience": 30,
+  "hyperparameter_policy": "Architecture hyperparameters fixed before evaluation; epoch selected by inner-validation AUPRC.",
+  "outer_test_labels_used_for_training_or_seed_selection": false,
+  "runtime_seconds": 1111.6288299560547
+}

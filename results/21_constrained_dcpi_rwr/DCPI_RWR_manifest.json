@@ -1,0 +1,18 @@
+{
+  "method_working_name": "DCPI-RWR (degree-conditioned pathway-integrated random walk with restart)",
+  "development": "Hyperparameters selected using repeated five-fold CV of 26.03 labels only; AUPRC, Precision@100 and bias-aware objectives were locked separately",
+  "validation": "Locked configurations evaluated against genes first present in the 26.06 disease-specific evidence set",
+  "views": [
+    "STRING",
+    "CellType",
+    "Pathway"
+  ],
+  "candidate_configurations": 183,
+  "bootstrap_replicates": 2000,
+  "degree_matched_seed_null_replicates": 100,
+  "important_boundary": "Graph topology was not historically frozen; cross-release results are time-separated label validation, not a fully prospective frozen-feature experiment.",
+  "input_sha256": {
+    "GNN_Dataset_Raw.pt": "25237da4f9fb89183a85586dd96d5b0f07ea55df27cdda0cb343af99a7d83148",
+    "node_mapping.json": "c553d66847228ff3734ed4a3b23464eee58321246f98244babcfdfee8e95558b"
+  }
+}

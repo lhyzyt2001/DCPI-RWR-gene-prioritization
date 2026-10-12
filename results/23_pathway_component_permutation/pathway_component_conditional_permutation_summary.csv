@@ -1,0 +1,7 @@
+cancer,config_id,effective_pathway_coefficient,observed_top100_incident_hits,null_mean_top100_incident_hits,null_ci_lower,null_ci_upper,empirical_p_greater_equal,permutations,permutation,p_holm_six_cancers
+LUAD,r0.15_b0.25_w0.25-0.00-0.75,0.1875,9,4.4685,1.0,8.0,0.02448775612193903,2000,Pathway conditioned-percentile values shuffled within STRING-degree bins; all other score components fixed.,0.14392803598200898
+BRCA,r0.50_b0.25_w0.50-0.00-0.50,0.125,4,5.2035,2.0,9.0,0.809095452273863,2000,Pathway conditioned-percentile values shuffled within STRING-degree bins; all other score components fixed.,1.0
+CRC,r0.15_b0.25_w0.50-0.00-0.50,0.125,9,10.4605,6.0,15.0,0.8025987006496752,2000,Pathway conditioned-percentile values shuffled within STRING-degree bins; all other score components fixed.,1.0
+PRAD,r0.30_b0.25_w0.50-0.00-0.50,0.125,3,4.638,2.0,8.0,0.9015492253873063,2000,Pathway conditioned-percentile values shuffled within STRING-degree bins; all other score components fixed.,1.0
+MEL,r0.30_b0.25_w0.50-0.00-0.50,0.125,7,4.2305,1.0,8.0,0.0944527736131934,2000,Pathway conditioned-percentile values shuffled within STRING-degree bins; all other score components fixed.,0.3778110944527736
+OV,r0.30_b0.25_w0.50-0.00-0.50,0.125,12,6.9295,3.0,11.0,0.0239880059970015,2000,Pathway conditioned-percentile values shuffled within STRING-degree bins; all other score components fixed.,0.14392803598200898

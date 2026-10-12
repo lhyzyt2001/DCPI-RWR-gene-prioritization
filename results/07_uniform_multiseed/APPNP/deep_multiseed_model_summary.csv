@@ -1,0 +1,2 @@
+method,folds,mean_fold_auprc,mean_within_fold_seed_sd,max_within_fold_seed_range,mean_pairwise_prediction_spearman
+RWR-feature APPNP,15,0.3955507580270707,0.009066345214744566,0.0699668160056513,0.9924950814242656

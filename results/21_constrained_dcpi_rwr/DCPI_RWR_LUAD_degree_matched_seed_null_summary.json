@@ -1,0 +1,9 @@
+{
+  "observed_AUPRC": 0.02779193795230559,
+  "null_mean_AUPRC": 0.016740889347259962,
+  "null_ci_lower": 0.010139944158897705,
+  "null_ci_upper": 0.033880177653364645,
+  "empirical_p_greater_equal": 0.0891089108910891,
+  "replicates": 100,
+  "null": "Random seed sets matched to historical LUAD seeds by STRING-degree bin and sampled from genes without 26.06 evidence"
+}

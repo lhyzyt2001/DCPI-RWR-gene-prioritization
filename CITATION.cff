@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DCPI-RWR: degree-conditioned pathway-integrated network diffusion for multicancer gene prioritization"
+type: software
+version: 1.0.0
+date-released: 2026-10-10
+license: MIT
+repository-code: "https://github.com/lhyzyt2001/DCPI-RWR-gene-prioritization"
+url: "https://github.com/lhyzyt2001/DCPI-RWR-gene-prioritization"
+authors:
+  - family-names: Zhang
+    given-names: Yuting
+  - family-names: Feng
+    given-names: Jihua
+  - family-names: Yang
+    given-names: Jiahui
+  - family-names: Chen
+    given-names: Zhongxing
+  - family-names: Li
+    given-names: Longfei
+keywords:
+  - gene prioritization
+  - random walk with restart
+  - network diffusion
+  - network centrality
+  - multicancer
+  - lung adenocarcinoma

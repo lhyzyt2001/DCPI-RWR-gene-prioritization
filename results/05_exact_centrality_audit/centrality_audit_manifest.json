@@ -1,0 +1,27 @@
+{
+  "methods": [
+    "RWR (STRING graph)",
+    "XGBoost direct stack",
+    "LightGBM direct stack",
+    "RWR-feature APPNP",
+    "RWR-feature GCNII",
+    "RWR-feature GATv2"
+  ],
+  "degree_strata": 6,
+  "matched_pairs": 1184,
+  "permutations_per_fold_block": 100,
+  "bootstrap_replicates": 2000,
+  "balance": {
+    "pairs": 1184,
+    "positive_mean_log_degree": 3.735537293483835,
+    "negative_mean_log_degree": 3.731797497488682,
+    "standardized_mean_difference_log_degree": 0.0035520126191244923,
+    "ks_statistic": 0.011824324324324325,
+    "ks_p_value": 0.9999971597197651,
+    "exact_degree_pairs": 1127,
+    "nearest_degree_pairs": 57,
+    "maximum_absolute_degree_difference": 279
+  },
+  "exact_degree_only_pairs": 1127,
+  "matching_note": "The primary 1:1 set uses exact degree when available and nearest unused degree otherwise. An exact-degree-only bootstrap is reported separately to expose sensitivity to the 57 nearest matches."
+}

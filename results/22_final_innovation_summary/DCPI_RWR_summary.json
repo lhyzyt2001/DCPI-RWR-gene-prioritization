@@ -1,0 +1,54 @@
+{
+  "positioning": "Bias-performance audit and time-separated candidate prioritization; not a claim of universal superiority or causal target discovery.",
+  "performance_meta_analysis": {
+    "pooled_delta_AUPRC": -0.006307009061047309,
+    "ci_lower": -0.014574778089728152,
+    "ci_upper": 0.0019607599676335326,
+    "tau_squared": 6.065037479834469e-05,
+    "I_squared_percent": 64.2627562578145
+  },
+  "top100_cross_cancer": [
+    {
+      "method": "DCPI-RWR bias-aware",
+      "cancers": 6,
+      "total_incident_hits": 36,
+      "mean_hub_fraction": 0.37999999999999995,
+      "median_STRING_degree": 54.5
+    },
+    {
+      "method": "DCPI-RWR performance",
+      "cancers": 6,
+      "total_incident_hits": 44,
+      "mean_hub_fraction": 0.48500000000000004,
+      "median_STRING_degree": 71.5
+    },
+    {
+      "method": "RWR-STRING",
+      "cancers": 6,
+      "total_incident_hits": 34,
+      "mean_hub_fraction": 0.79,
+      "median_STRING_degree": 132.75
+    }
+  ],
+  "top100_paired_pooled": {
+    "cancer": "POOLED_DESCRIPTIVE",
+    "comparison": "DCPI-RWR performance vs RWR-STRING",
+    "overlap_genes": NaN,
+    "method_only_incident_hits": 24,
+    "reference_only_incident_hits": 14,
+    "exact_p_two_sided": 0.143306654295884
+  },
+  "top100_hub_reduction_direction": {
+    "cancers_with_lower_hub_fraction": 6,
+    "cancers_evaluated": 6,
+    "two_sided_sign_test_p": 0.03125
+  },
+  "candidate_biology": {
+    "RNA_direction_concordant": 9,
+    "RNA_direction_evaluable": 17,
+    "concordant_and_FDR_significant_in_both_RNA_cohorts": 3,
+    "TCGA_survival_FDR_significant": 0,
+    "GSE68465_survival_FDR_significant": 0
+  },
+  "hard_boundary": "External molecular and clinical analyses are post hoc characterization of a locked list and do not establish causality or therapeutic efficacy."
+}

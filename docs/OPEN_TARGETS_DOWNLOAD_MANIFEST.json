@@ -1,0 +1,9 @@
+[
+  {
+    "release": "26.06",
+    "url": "https://open-targets-public-data-releases.s3.amazonaws.com/platform/26.06/output/evidence_clinical_precedence/part-00000-0df68723-5a30-40a5-b899-ecac4d382ea0-c000.snappy.parquet",
+    "file": "26.06\\part-00000-0df68723-5a30-40a5-b899-ecac4d382ea0-c000.snappy.parquet",
+    "bytes": 65766146,
+    "sha256": "b3a66214b4941a5ec9c22bb43fb188f91c90d5a39e5d71d1e5e028b300202ad9"
+  }
+]

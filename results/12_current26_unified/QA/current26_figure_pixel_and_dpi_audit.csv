@@ -1,0 +1,6 @@
+path,width_px,height_px,dpi_x,dpi_y,pdf_counterpart
+results/12_current26_unified/combined/current26_unified_benchmark.png,4313,1701,599.9988,599.9988,True
+results/13_temporal_reconciliation/temporal_design_topk.png,4291,1751,599.9988,599.9988,True
+results/14_current26_candidates/current26_candidate_degree_audit.png,2553,2013,599.9988,599.9988,True
+results/15_current26_external_characterization/current26_RWR_top20_characterization.png,4297,3101,599.9988,599.9988,True
+results/16_current26_functional/current26_Hallmark_GSEA_primary.png,4289,2851,599.9988,599.9988,True

@@ -1,0 +1,28 @@
+{
+  "scope": "all 15 outer folds; fixed splits, preprocessing and identical training protocol; three optimization seeds per model",
+  "repeats": [
+    0,
+    1,
+    2
+  ],
+  "models": [
+    "RWR-feature GATv2"
+  ],
+  "seed_labels": [
+    "uniform_seed_1",
+    "uniform_seed_2",
+    "uniform_seed_3"
+  ],
+  "seed_offsets": [
+    0,
+    10000,
+    20000
+  ],
+  "max_epochs_for_all_seeds": 500,
+  "min_epochs_for_all_seeds": 30,
+  "patience_for_all_seeds": 35,
+  "early_stopping_metric": "inner-validation AUPRC",
+  "outer_test_labels_used_for_training_or_seed_selection": false,
+  "runtime_seconds": 1041.376068353653,
+  "limitation": "Optimization-seed sensitivity is not an independent validation cohort."
+}

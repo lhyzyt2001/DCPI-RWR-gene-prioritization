@@ -1,0 +1,7 @@
+method,reference,median_delta_AUPRC,ci_lower,ci_upper,p_two_sided,bootstrap_replicates,bootstrap_unit,p_holm
+Network-degree logistic,RWR,-0.3935107753291025,-0.45062033464607404,-0.33316859294959383,0.0009995002498750624,2000,label-stratified gene cluster retained across repeats; AUPRC computed within each outer fold,0.005997001499250375
+XGBoost + RWR/features,RWR,-0.01979162787370531,-0.05393498576532066,0.014792167614823238,0.24187906046976512,2000,label-stratified gene cluster retained across repeats; AUPRC computed within each outer fold,0.48375812093953025
+LightGBM + RWR/features,RWR,-0.01950130438084169,-0.05055038213357447,0.014507397048088061,0.255872063968016,2000,label-stratified gene cluster retained across repeats; AUPRC computed within each outer fold,0.48375812093953025
+APPNP,RWR,-0.1969879041131633,-0.23811557834903851,-0.1512265424312988,0.0009995002498750624,2000,label-stratified gene cluster retained across repeats; AUPRC computed within each outer fold,0.005997001499250375
+GCNII,RWR,-0.21296214748549694,-0.2555007366375969,-0.16621661457093967,0.0009995002498750624,2000,label-stratified gene cluster retained across repeats; AUPRC computed within each outer fold,0.005997001499250375
+GATv2,RWR,-0.18095763631314382,-0.23655707499120285,-0.12569321583774656,0.0009995002498750624,2000,label-stratified gene cluster retained across repeats; AUPRC computed within each outer fold,0.005997001499250375

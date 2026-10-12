@@ -1,0 +1,4 @@
+method,cancers,total_incident_hits,mean_hub_fraction,median_STRING_degree
+DCPI-RWR bias-aware,6,36,0.37999999999999995,54.5
+DCPI-RWR performance,6,44,0.48500000000000004,71.5
+RWR-STRING,6,34,0.79,132.75

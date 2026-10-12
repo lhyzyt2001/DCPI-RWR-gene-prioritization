@@ -1,0 +1,29 @@
+{
+  "package": "DCPI-RWR-release-v1.0.0",
+  "version": "1.0.0",
+  "created": "2026-10-10T17:00:36",
+  "source_release_untouched": true,
+  "source_manifest_verified": true,
+  "results_tree_unchanged": true,
+  "results_tree_sha256": "2cad7c138bc90d8c8faee62f02b29464dcd5efa8046f9751aad365216a00343f",
+  "result_file_count": 238,
+  "result_bytes": 51058343,
+  "candidate_characterization_entry_point": "code/09_characterize_dcpi_candidates.py",
+  "generated_python_caches_removed": true,
+  "updated_public_files": [
+    "README.md",
+    "NAME_CHANGE.md",
+    "RELEASE_NOTES_v1.0.0.md",
+    "docs/RUN_ORDER.md",
+    "docs/RESULTS_INDEX.md",
+    "docs/CURRENT26_UNIFIED_REPORT.md",
+    "docs/RESULTS_AND_CLAIMS.md",
+    "code/02_disease_specific_crossvalidation.py",
+    "code/09_characterize_dcpi_candidates.py",
+    "code/29_finalize_innovation_package.py",
+    "code/benchmark_core.py",
+    "code/strong_gnn_core.py"
+  ],
+  "legacy_provenance_policy": "Earlier positive-unlabelled and multiview-GCN analyses are retained and explicitly labelled as legacy. They are not components of the primary DCPI-RWR method.",
+  "scientific_change": "None. Inputs, splits, fitted predictions, result tables, candidate lists, performance values and statistical conclusions are unchanged."
+}

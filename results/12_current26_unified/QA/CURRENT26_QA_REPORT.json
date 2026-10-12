@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "endpoint": "Open Targets 26.06 disease-specific LUAD clinical-precedence evidence",
+  "positive_count": 197,
+  "methods": [
+    "APPNP",
+    "GATv2",
+    "GCNII",
+    "LightGBM + RWR/features",
+    "Network-degree logistic",
+    "RWR",
+    "XGBoost + RWR/features"
+  ],
+  "checks": {
+    "current_endpoint_positive_count_is_197": true,
+    "unified_benchmark_has_expected_7_methods": true,
+    "unified_benchmark_has_105_method_fold_rows": true,
+    "unified_benchmark_has_15_outer_folds": true,
+    "deep_has_135_uniform_fits": true,
+    "deep_fit_identifiers_unique": true,
+    "deep_outer_test_labels_not_used": true,
+    "deep_outer_test_nodes_not_RWR_seeds": true,
+    "fold_assignments_cover_three_repeats": true,
+    "candidate_count_is_20": true,
+    "topology_adjusted_candidate_count_is_20": true,
+    "temporal_designs_are_explicitly_separate": true,
+    "four_current_endpoint_GSEA_tables_present": true,
+    "RWR_is_in_bootstrap_reference_comparisons": true,
+    "all_new_png_figures_at_least_300_dpi": true,
+    "all_new_png_figures_have_vector_pdf_counterparts": true
+  },
+  "interpretation": "A PASS confirms endpoint alignment, shared folds, leakage controls and package completeness. It does not establish causal-gene discovery, therapeutic validity or journal acceptance."
+}

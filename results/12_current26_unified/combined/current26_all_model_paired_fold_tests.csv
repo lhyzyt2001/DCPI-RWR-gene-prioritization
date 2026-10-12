@@ -1,0 +1,7 @@
+method,reference,mean_fold_delta_AUPRC,folds_positive,folds,wilcoxon_p_two_sided,note,p_holm
+Network-degree logistic,RWR,-0.40030211010962086,0,15,6.103515625e-05,Secondary only; repeated-CV folds are correlated.,0.0003662109375
+XGBoost + RWR/features,RWR,-0.020478469506612414,7,15,0.52447509765625,Secondary only; repeated-CV folds are correlated.,1.0
+LightGBM + RWR/features,RWR,-0.017784045863347222,8,15,0.93408203125,Secondary only; repeated-CV folds are correlated.,1.0
+APPNP,RWR,-0.20776212650186424,0,15,6.103515625e-05,Secondary only; repeated-CV folds are correlated.,0.0003662109375
+GCNII,RWR,-0.22388141998075964,0,15,6.103515625e-05,Secondary only; repeated-CV folds are correlated.,0.0003662109375
+GATv2,RWR,-0.19191805758939948,0,15,6.103515625e-05,Secondary only; repeated-CV folds are correlated.,0.0003662109375

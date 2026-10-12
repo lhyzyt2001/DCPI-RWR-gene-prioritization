@@ -1,0 +1,224 @@
+{
+  "LUAD": {
+    "performance": {
+      "restart": 0.15,
+      "blend": 0.25,
+      "weight_string": 0.25,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.75
+    },
+    "performance_config_id": "r0.15_b0.25_w0.25-0.00-0.75",
+    "discovery": {
+      "restart": 0.5,
+      "blend": 0.0,
+      "weight_string": 1.0,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.0
+    },
+    "discovery_config_id": "r0.50_b0.00_w1.00-0.00-0.00",
+    "discovery_selection_rule": "Highest historical-CV mean Precision@100; ties resolved by mean AUPRC then lower absolute score-degree Spearman correlation",
+    "constrained_top100": {
+      "restart": 0.5,
+      "blend": 0.75,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "constrained_top100_config_id": "r0.50_b0.75_w0.75-0.00-0.25",
+    "constrained_top100_selection_rule": "Lowest historical-CV mean top-100 STRING-hub fraction among configurations retaining at least 95% of the RWR historical-CV mean Precision@100",
+    "bias_aware": {
+      "restart": 0.15,
+      "blend": 0.5,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "bias_aware_config_id": "r0.15_b0.50_w0.50-0.00-0.50",
+    "bias_selection_rule": "Lowest mean absolute score-degree Spearman among configurations with historical-CV mean AUPRC >= 95% of the performance-optimal configuration"
+  },
+  "BRCA": {
+    "performance": {
+      "restart": 0.5,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "performance_config_id": "r0.50_b0.25_w0.50-0.00-0.50",
+    "discovery": {
+      "restart": 0.5,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "discovery_config_id": "r0.50_b0.25_w0.50-0.00-0.50",
+    "discovery_selection_rule": "Highest historical-CV mean Precision@100; ties resolved by mean AUPRC then lower absolute score-degree Spearman correlation",
+    "constrained_top100": {
+      "restart": 0.5,
+      "blend": 0.75,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "constrained_top100_config_id": "r0.50_b0.75_w0.75-0.00-0.25",
+    "constrained_top100_selection_rule": "Lowest historical-CV mean top-100 STRING-hub fraction among configurations retaining at least 95% of the RWR historical-CV mean Precision@100",
+    "bias_aware": {
+      "restart": 0.3,
+      "blend": 0.5,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "bias_aware_config_id": "r0.30_b0.50_w0.50-0.00-0.50",
+    "bias_selection_rule": "Lowest mean absolute score-degree Spearman among configurations with historical-CV mean AUPRC >= 95% of the performance-optimal configuration"
+  },
+  "CRC": {
+    "performance": {
+      "restart": 0.15,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "performance_config_id": "r0.15_b0.25_w0.50-0.00-0.50",
+    "discovery": {
+      "restart": 0.3,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "discovery_config_id": "r0.30_b0.25_w0.50-0.00-0.50",
+    "discovery_selection_rule": "Highest historical-CV mean Precision@100; ties resolved by mean AUPRC then lower absolute score-degree Spearman correlation",
+    "constrained_top100": {
+      "restart": 0.5,
+      "blend": 0.75,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "constrained_top100_config_id": "r0.50_b0.75_w0.75-0.00-0.25",
+    "constrained_top100_selection_rule": "Lowest historical-CV mean top-100 STRING-hub fraction among configurations retaining at least 95% of the RWR historical-CV mean Precision@100",
+    "bias_aware": {
+      "restart": 0.15,
+      "blend": 0.5,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "bias_aware_config_id": "r0.15_b0.50_w0.50-0.00-0.50",
+    "bias_selection_rule": "Lowest mean absolute score-degree Spearman among configurations with historical-CV mean AUPRC >= 95% of the performance-optimal configuration"
+  },
+  "PRAD": {
+    "performance": {
+      "restart": 0.3,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "performance_config_id": "r0.30_b0.25_w0.50-0.00-0.50",
+    "discovery": {
+      "restart": 0.5,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "discovery_config_id": "r0.50_b0.25_w0.50-0.00-0.50",
+    "discovery_selection_rule": "Highest historical-CV mean Precision@100; ties resolved by mean AUPRC then lower absolute score-degree Spearman correlation",
+    "constrained_top100": {
+      "restart": 0.5,
+      "blend": 0.75,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "constrained_top100_config_id": "r0.50_b0.75_w0.75-0.00-0.25",
+    "constrained_top100_selection_rule": "Lowest historical-CV mean top-100 STRING-hub fraction among configurations retaining at least 95% of the RWR historical-CV mean Precision@100",
+    "bias_aware": {
+      "restart": 0.5,
+      "blend": 0.25,
+      "weight_string": 0.25,
+      "weight_celltype": 0.25,
+      "weight_pathway": 0.5
+    },
+    "bias_aware_config_id": "r0.50_b0.25_w0.25-0.25-0.50",
+    "bias_selection_rule": "Lowest mean absolute score-degree Spearman among configurations with historical-CV mean AUPRC >= 95% of the performance-optimal configuration"
+  },
+  "MEL": {
+    "performance": {
+      "restart": 0.3,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "performance_config_id": "r0.30_b0.25_w0.50-0.00-0.50",
+    "discovery": {
+      "restart": 0.3,
+      "blend": 0.25,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "discovery_config_id": "r0.30_b0.25_w0.75-0.00-0.25",
+    "discovery_selection_rule": "Highest historical-CV mean Precision@100; ties resolved by mean AUPRC then lower absolute score-degree Spearman correlation",
+    "constrained_top100": {
+      "restart": 0.3,
+      "blend": 0.75,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "constrained_top100_config_id": "r0.30_b0.75_w0.75-0.00-0.25",
+    "constrained_top100_selection_rule": "Lowest historical-CV mean top-100 STRING-hub fraction among configurations retaining at least 95% of the RWR historical-CV mean Precision@100",
+    "bias_aware": {
+      "restart": 0.3,
+      "blend": 0.25,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "bias_aware_config_id": "r0.30_b0.25_w0.75-0.00-0.25",
+    "bias_selection_rule": "Lowest mean absolute score-degree Spearman among configurations with historical-CV mean AUPRC >= 95% of the performance-optimal configuration"
+  },
+  "OV": {
+    "performance": {
+      "restart": 0.3,
+      "blend": 0.25,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "performance_config_id": "r0.30_b0.25_w0.50-0.00-0.50",
+    "discovery": {
+      "restart": 0.3,
+      "blend": 0.25,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "discovery_config_id": "r0.30_b0.25_w0.75-0.00-0.25",
+    "discovery_selection_rule": "Highest historical-CV mean Precision@100; ties resolved by mean AUPRC then lower absolute score-degree Spearman correlation",
+    "constrained_top100": {
+      "restart": 0.5,
+      "blend": 0.75,
+      "weight_string": 0.75,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.25
+    },
+    "constrained_top100_config_id": "r0.50_b0.75_w0.75-0.00-0.25",
+    "constrained_top100_selection_rule": "Lowest historical-CV mean top-100 STRING-hub fraction among configurations retaining at least 95% of the RWR historical-CV mean Precision@100",
+    "bias_aware": {
+      "restart": 0.15,
+      "blend": 0.5,
+      "weight_string": 0.5,
+      "weight_celltype": 0.0,
+      "weight_pathway": 0.5
+    },
+    "bias_aware_config_id": "r0.15_b0.50_w0.50-0.00-0.50",
+    "bias_selection_rule": "Lowest mean absolute score-degree Spearman among configurations with historical-CV mean AUPRC >= 95% of the performance-optimal configuration"
+  }
+}

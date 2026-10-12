@@ -1,0 +1,2 @@
+method,folds,mean_fold_auprc,mean_within_fold_seed_sd,max_within_fold_seed_range,mean_pairwise_prediction_spearman
+RWR-feature GCNII,15,0.40458725191911304,0.005965123167036565,0.03008927675744294,0.9946544761963635
