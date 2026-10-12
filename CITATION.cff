@@ -4,6 +4,7 @@ title: "DCPI-RWR: degree-conditioned pathway-integrated network diffusion for mu
 type: software
 version: 1.0.0
 date-released: 2026-10-10
+doi: 10.5281/zenodo.23307573
 license: MIT
 repository-code: "https://github.com/lhyzyt2001/DCPI-RWR-gene-prioritization"
 url: "https://github.com/lhyzyt2001/DCPI-RWR-gene-prioritization"
